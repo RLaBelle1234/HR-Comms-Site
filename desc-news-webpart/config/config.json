@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "desc-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/descNews/DescNewsWebPart.js",
+          "manifest": "./src/webparts/descNews/DescNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DescNewsWebPartStrings": "lib/webparts/descNews/loc/{locale}.js"
+  }
+}
